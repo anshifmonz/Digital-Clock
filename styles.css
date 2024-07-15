@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+#clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, .03);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, .025);
+    width: 50vw;
+    height: 28vh;
+    color: white;
+    font-size: 3vh;
+    border-top-right-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    box-shadow: 2vh 2vh 4vh black;
+}
+#clock h1{
+    font-size: 3vw;
+    margin-top: -2.5vw;
+    margin-bottom: -1vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 60%;
+}
+#clock p, span{
+    font-size: 4vw;
+    font-weight: 500;
+    margin-bottom: -1.7vw;
+}
